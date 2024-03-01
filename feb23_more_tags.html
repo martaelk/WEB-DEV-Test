@@ -6,11 +6,18 @@
     <title>Lesson 2 - WEB DEV</title>
 </head>
 <body>
-    <h1>More Tag fun!</h1>    
-    <hr>
+    <header>
+        <h1 id="top_h1">More Tag fun!</h1>    
+    </header>
 
+    <main>
+    <h2> RTU logo</h2>
+        <img src="rtu_logo_en.jpg" alt="RTU logo" height="200">
+        <h2>Map to RTU</h2>
+        <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=24.064822196960453%2C56.94305559128666%2C24.104990959167484%2C56.9584790180249&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=15/56.9508/24.0849">View Larger Map</a></small>
 
-    <h2>Food I like</h2>
+        
+    <h2 id="food">Food I like</h2>
     <ul>
         <li>Cheese</li>
         <li>Chips</li>
@@ -32,10 +39,32 @@
     </ol>
     <hr>
     <a href="https://rtu.lv">RTU</a>
-    <a href="https://rtu.lv" target="_blank">National Library of Latvia</a>>RTU</a>
+    <a href="https://lnb.lv" target="_blank">National Library of Latvia in a new tab</a>
+    <hr>
     <form action="https://www.google.com/search" method="get">
-
-
+        <lebel for="search">search:</lebel>
+        <input type="text" id="search" name="q">
+        <input type="submit" value="search">
     </form>
+    <hr>
+    <h3> Create a simple table</h3>  
+    <table> 
+        <tr>
+            <td>Marta</td>
+            <td>Kivkule</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>ELizabete</td>
+            <td>Krūmiņa</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <hr>
+    <a href="#top_1">Top of site</a>
+    <footer id="last_footer"> Made with Love 2024</footer>
+</main>
+    
+
 </body>
 </html>
