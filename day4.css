@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(253, 246, 238);
+}
+
+h2 {
+    background-color: rgb(232, 219, 252);
+}
+
+p {
+    color: blueviolet;
+    text-align: center;
+}
+
+ol {
+    background-color: rgb(246, 236, 149);
+}
+.important-item {
+    color: #f624fd;
+    background-color: rgb(91, 76, 91);
+}
+
+.reference-links {
+    color: #f624fd;
+    background-color: azure;
+}
+
+a:link {
+    color: #f624fd;
+}
+#important-paragraph {
+    color: blue;
+    background-color: antiquewhite;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* we can use !important to override styles
