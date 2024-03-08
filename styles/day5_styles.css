@@ -1,0 +1,56 @@
+* {
+    background-color: beige
+}
+.boxes {
+    position: relative;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: rgb(244, 215, 215);
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+   
+
+}
+.b-content {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+
+    width: 50%;
+    height: 20%;
+    
+}
+.box-1 {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    background-color: rgb(242, 242, 142);
+}
+.box-2 {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: rgb(212, 242, 142);
+    z-index: 5000;
+}
+.box-3 {
+    position: absolute;
+    bottom: 5%;
+    top: 5%;
+    background-color: rgb(242, 210, 142);
+}
+.my-emphasis {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    color: brown;
+    font-size: 24px;
+
+}
