@@ -1,7 +1,4 @@
-body {
-    background-color: aliceblue;
-    
-}
+
 .container {
     display: grid;
     grid-template-columns: 20% 40% 35%;
@@ -27,7 +24,7 @@ body {
     .container {
         grid-template-columns: 20% 25% 35% 30%;
         grid-template-areas: 
-        "header header  header"
+        "header header header header"
         "navigation article article sidebar"
         "navigation main main sidebar"
         "footer footer footer footer";
