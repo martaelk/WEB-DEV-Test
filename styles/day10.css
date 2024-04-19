@@ -1,0 +1,22 @@
+.output {
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px grey;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    width: 50%;
+}
+.my-table {
+    border: 2px solid black;
+}
+.my-table th {
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+.my-table td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+span {
+    background-color: antiquewhite;
+}
