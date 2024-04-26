@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11 - Javascript Loops, Switch </title>
+    <script src="scripts/day11.js" defer></script>
+</head>
+<body>
+    <h1>Javascript Loops, Switch</h1>
+    <h2>Looping</h2>
+    <h3>While</h3>
+    <p>While loops are used to execute a block of code multiple times as long as a condiitonal is true.</p>
+    <p>Exemple:</p>
+    <pre>
+        <code>
+            let i = 0;
+            while (1 &lt; 5) {
+                console.log(1);
+                i++;
+            }
+        </code>
+    </pre>
+    <p>Output:</p>
+    <p id="whileLoopOutput"></p>
+
+    <h3>Do While Loop</h3>
+    <p>Do while loops are used to execute  a block of code at least once, and then reapeat the loop as long as a condition is true.</p>
+    <p>Exemple:</p>
+    <pre>
+        <code>
+            let i = 0;
+            do {
+                console.log(i);
+                i++
+
+            }while (i &lt; 5)
+        </code>
+    </pre>
+    <p>Output:</p>
+    <p id="doWhileLoopOutput"></p>
+    <p>I call do while loops "Shoot first and ask  questions later" loops , because they check the codition AFTER</p>
+    <p>You can simulate do while loop with regular while loop using break</p>
+    <h3>For Loop</h3>
+    <p>For loops are used to execute a block of code a number of times.</p>
+    <p>Exemple:</p>
+    <pre>
+        <code>
+            for (let i = 0; i &lt; 5; i++) {
+                console.log(i);
+            }
+        </code>
+    </pre>
+    <p>Output:</p>
+    <p id="forLoopOutput"></p>
+
+    <h2>Switches</h2>
+    <p></p>
+    <pre>
+        <code>
+            let day = new Date().getDay();
+            switch (day){
+                case 0:
+                console.log("Sunday");
+                break;
+                case 1:
+                console.log("Monday");
+                break;
+                case 2:
+                console.log("Tuesday");
+                break;
+                case 3:
+                console.log("Wednesday");
+                break;
+                case 4:
+                console.log("Thursday");
+                break;
+                case 5:
+                console.log("Friday");
+                break;
+                case 6:
+                console.log("Saturday");
+                break;
+                default:
+                console.log("Uknown day");
+            }
+        </code>
+    </pre>
+    <p>Output:</p>
+    <p id="switchesOutput"></p>
+    <p>Switches are useful as a tool to replace multiple if else statements.</p>
+</body>
+</html>
