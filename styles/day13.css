@@ -1,0 +1,12 @@
+.element-container {
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    margin: 5px;
+    min-height: 1rem;
+}
+
+.new-p-element {
+    font-weight: bold;
+    font-style: italic;
+    background-color: lightblue;
+}
