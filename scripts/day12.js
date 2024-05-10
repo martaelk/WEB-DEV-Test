@@ -48,10 +48,38 @@ for (let i = 1; i <= 10; i++){
 }
 
 let counter = 0;
-const myButton = document.getElementById("btn-click");
+const myIncreaseBtn = document.getElementById("btn-click-increase");
 
 const myCounterElement = document.getElementById("counter-output-id");
+
 function increaseCounter (){
     counter ++;
     myCounterElement.textContent = `Counter is at ${counter}`;
+    console.log (`Counter is at ${counter}`);
 }
+console.log ("Adding event listener to button");
+myIncreaseBtn.addEventListener("click", increaseCounter);
+
+const myResetBtn = document.getElementById("btn-click-reset");
+ function resetCounter() {
+    counter = 0;
+    myCounterElement.textContent = `Counter is at ${counter}`;
+    console.log (`Counter is at ${counter}`);
+ }
+
+ console.log ("Adding event listener to reset button - this time mouse event");
+ myResetBtn.addEventListener("mouseup", resetCounter);
+
+
+
+
+ 
+ const myBodyElement = document.body;
+ function randomColorbackground() {
+    const randomColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+    myBodyElement.style.backgroundColor = randomColor;
+    console.log (`Setting background color to ${randomColor}`);
+
+ }
+ console.log ("Adding event listener to body element");
+ myBodyElement.addEventListener("click", randomColorbackground);
