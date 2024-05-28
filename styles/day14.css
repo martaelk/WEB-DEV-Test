@@ -1,0 +1,37 @@
+.element-container {
+    /* small round border and min height */
+    /* let's also make it flex wrap so elements wrap nicely */
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* padding: 10px; */
+    margin: 5px;
+    min-height: 3rem;
+}
+.boxy {
+    /* we will add some padding and margin */
+    padding: 10px;
+    margin: 5px;
+    /* we will add a border and border radius */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* we will add a background color */
+    background-color: #f9f9f9;
+    /* we will add a box shadow */
+    box-shadow: 2px 2px 5px #ccc;
+    min-height: 1.5rem;
+    min-width: 12rem;
+    /* we will add a flex grow
+    flex-grow: 1; */
+}
+
+/* .cool {
+    background-color: lightblue;
+} */
+.odd {
+    background-color: palevioletred;
+}
+.even {
+    background-color: pink;
+}
